@@ -1,0 +1,53 @@
+Name: Keerthivasan Sivasankar
+USC ID: 9269558511
+News site crawled: nytimes.com
+Number of threads: 10
+
+Fetch Statistics
+================
+# fetches attempted: 19999
+# fetches succeeded: 15694
+# fetches failed or aborted: 4305
+
+Outgoing URLs:
+==============
+Total URLs extracted: 1002265
+# unique URLs extracted: 185069
+# unique URLs within News Site: 81007
+# unique URLs outside News Site: 104062
+
+Status Codes:
+=============
+200 OK: 15694
+201 Created
+301 Moved Permanently
+302 Found
+400 Bad request response
+401 Unauthorized
+403 forbidden
+404 Not found
+500 Internal serbe
+501 Not implemented
+301 Moved Permanently: 2077
+302 Found: 2184
+400 Bad Request Response: 1
+401 Unauthorized: 1
+403 Forbidden: 3
+404 Not Found: 19
+410 Gone: 19
+
+File Sizes:
+===========
+< 1KB: 0
+1KB ~ <10KB: 28
+10KB ~ <100KB: 623
+100KB ~ <1MB: 13473
+>= 1MB: 1459
+
+Content Types:
+==============
+image/png: 19
+text/html: 15552
+image/x-icon: 1
+image/svg+xml: 6
+image/vnd.microsoft.icon: 5
