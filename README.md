@@ -49,4 +49,4 @@ Utilizied Peter-Norvig's SpellCorrector algorithm and fed this vocabulary to com
 Added the Spell Check functionality to the Iditom Search Engine, imitating Google (Showing Results for __ , Search Instead for __ ).  
 Used Solr's default Autocomplete results which uses Fuzzy Factory lookup for the word suggestions.  
 
-**View the Search Engine Video here -**(https://youtu.be/lYZ_SdsIX3A)
+**View the Search Engine Video here -** https://youtu.be/lYZ_SdsIX3A
