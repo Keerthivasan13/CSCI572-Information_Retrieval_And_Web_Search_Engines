@@ -14,7 +14,7 @@ Contains assignments done for the CSCI572 course at University of Southern Calif
 **I/P :** Website domain name to Crawl  
 **O/P :** List of URLs fetched along with their statistics
 
-## 3. Inverted Index
+## 3. Inverted Index  
 
 **Languages :** Java 11  
 **Libraries :** Apache Hadoop  
@@ -22,7 +22,7 @@ Contains assignments done for the CSCI572 course at University of Southern Calif
 **I/P :** List of URLs to be indexed  
 **O/P :** Index files for Unigrams and Bigrams for the URLs
 
-## 4. Search Engine
+## 4. Search Engine  
 
 **Languages :** Java 11, Python 3.7, HTML, CSS, PHP, JavaScript, JQuery  
 **Libraries :** Apache Lucene, Apache Solr, Apache Tika, NetworkX, jsoup, PeterNorvig's SpellCorrector  
@@ -37,13 +37,13 @@ Created a Solr core to Crawl html files and produce Inverted index efficiently.
 Select Command in Solr retrieves webpages for the query given. It internally uses Lucene's Vector space and Boolean Model representation and sorts the results with TF-IDF.  
 Provided additional functionality for sorting the webpage results with the Page rank values computed previously.
 
-**3. Iditom Search Engine Webpage :**
+**3. Iditom Search Engine Webpage :**  
 Developed a PHP code to act as the Client for getting the Query from the users. 
 User can choose to use Lucene's default Ranking algorithm or Page Rank algorithm for Sorting the fetched results.
 Using Client API to Solr, webpage results are retrived for the Query.  
 Google like web interface is provided.  
 
-**4. Spell Check and Autocomplete  :**
+**4. Spell Check and Autocomplete  :**  
 Created a vocabulary text file after parsing and preprocessing words from the Crawled webpages using Apache Tika.  
 Utilizied Peter-Norvig's SpellCorrector algorithm and fed this vocabulary to compute the probabilities for Edit Distance 1 and 2.  
 Added the Spell Check functionality to the Iditom Search Engine, imitating Google (Showing Results for __ , Search Instead for __ ).  
